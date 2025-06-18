@@ -1,0 +1,141 @@
+body {
+    background-color: #ffa704;
+    margin: 0;
+}
+
+.butikk {
+    font-size: 135px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.logo { 
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 472px;
+    object-fit: cover;
+}
+
+.kort{ 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-style: solid;
+    border-color: #363314;
+    width: 80%;
+    justify-self: center;
+}
+
+button {
+    width: 70%;
+    margin: 10px auto;
+    padding: 14px;
+    border-radius: 26px;
+    background-color:#ffffff;
+    color: #000000;
+    font-size: x-large;
+    font-weight: 1000;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1em;
+}
+
+.pris {
+    font-size: xx-large;
+}
+
+.produkt {
+    font-size: xx-large;
+    margin-top:75px;
+}
+
+.AirPods {
+    margin: 10%;
+}
+
+.produkt-side {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Produktinfo {
+    margin: 16px 15%;
+    font-size: x-large;
+}
+
+.logo-produkt { 
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.produkt-bilde {
+    width: 40%;
+    margin: auto;
+}
+
+.Tørketrommel {
+    width: 50%;
+    margin: auto;
+}
+
+footer {
+    background-color:#FEE502 ;
+    padding: 16px;
+    margin: 4% auto 0;
+    display: flex;
+    gap: 35px;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+}
+.Mac {
+    margin: 12%;
+}
+
+.handlekurv {
+    width: 55%;
+}
+
+.Kurv-info {
+    display: flex;
+    margin-top: 4%;
+}
+
+.Antall {
+    padding: 20px;
+    width: 35%;
+    border-radius: 35%;
+    font-size: xx-large;
+    text-align: center;
+}
+.Din-handlekurv{
+    margin-top: 20%;
+}
+
+.nedover {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+.skrivefelt {
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.Beskjed {
+   padding-top: 300px;
+   padding-bottom: 300px;
+   margin: auto;
+display: flex;
+flex-direction: column;
+}
